@@ -1,0 +1,6 @@
+---
+permalink: /categories/
+title: "categories"
+---
+
+
