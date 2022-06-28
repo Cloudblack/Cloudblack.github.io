@@ -23,7 +23,7 @@ toc_sticky: true
 
 - 배열은 하나의 변수에 여러개의 값을 순차적으로 저장한것이다
 - 처음에 지정한 배열의 공간이 부족해지면 추가를 할수없어 더큰 배열로 옮겨야한다
-- <img src="../assets/img/2022-06-27-data_structure/image-20220627193545181.png" alt="image-20220627193545181" style="zoom:33%;" />
+- ![image-20220628222930509](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/image-20220628222930509.png)
 - Reading
     - 컴퓨터에서 어디서 배열이 시작되는지 알고 순차적으로 정렬되어있기 때문에 배열의 길이에 관계없이 인덱스를 활용해 데이터에 빠르게 접근할 수 있다
 - Search
@@ -35,13 +35,11 @@ toc_sticky: true
         - 최악 - 마지막에있는경우
         - 찐최악 - 없는경우
 - Insert (add)
-    - ![img](../assets/img/2022-06-27-data_structure/jdchoi_20140225_arraylist_insert3-16563257657792-16563257713494.png)
     - 최고 - 마지막에 넣는경우 마지막 인덱스에 넣기만하면됨
     - 보통 - 중간에 넣는경우 넣는위치 이후의 값들을 전부 뒤로 밀어야한다
     - 최악 - 맨앞에 넣는 경우 모든 값들을 뒤로 밀어야한다
     - 최최악 - 배열이 꽉차서 늘려서 담아야하는 경우 크기에맞는 배열을 새로만들고 기존것을 옮기고 추가
 - Delete
-    - ![img](../assets/img/2022-06-27-data_structure/jdchoi_20140225_arraylist_remove1-16563257923846.png)
     - insert와 비슷하다
     - 최고 - 마지막 값을 지우는경우 바로 지울수있음
     - 보통 - 중간 값을 지우면 이후값을 앞으로 떙긴다
@@ -51,16 +49,16 @@ toc_sticky: true
 
 - 노드들이 다음 다음으로 링크되어있는 리스트이다
 - 배열과 다르게 고정크기가 되어있지않고 값을 추가하고 삭제하는데 용이하다 하지만 배열의 인덱스처럼 원하는 위치를 지정할 수 없고 순차적으로 위치를 볼 수 밖에없다 
-- <img src="../assets/img/2022-06-27-data_structure/image-20220627193621453.png" alt="image-20220627193621453" style="zoom:33%;" />
+- ![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2928.png)
 - linked list는 두가지 정보가 필요하다 
     - 1. data field 
         2. link field 
-- <img src="../assets/img/2022-06-27-data_structure/2939.png" alt="img" style="zoom:80%;" />
+- <img src="https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2939.png" alt="img" style="zoom:67%;" />
 - HEAD는 시작점을 가르킨다
 
 - array와 linked list의 trade off
 
-<img src="../assets/img/2022-06-27-data_structure/2885.png" alt="img" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2885.png" alt="img" style="zoom:67%;" />
 
 ## HashTable
 
@@ -79,7 +77,7 @@ toc_sticky: true
 
 - HashTable 구조
 
-    [![hashtable](https://github.com/WeareSoft/tech-interview/raw/master/contents/images/hashtable.png)](https://github.com/WeareSoft/tech-interview/blob/master/contents/images/hashtable.png)
+    [![hashtable](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/hashtable.png)](https://github.com/WeareSoft/tech-interview/blob/master/contents/images/hashtable.png)
 
     - Key, Hash Function, Hash, Value, 저장소(Bucket, Slot)로 구성
     - Key
@@ -113,7 +111,7 @@ toc_sticky: true
 
     1. Separating Chaining
         - JDK 내부에서 사용하는 충돌 처리 방식
-        - Linked List(데이터 6개 이하) 또는 Red-Black Tree(데이터 8개 이상) 사용 [![separatingChaining](https://github.com/WeareSoft/tech-interview/raw/master/contents/images/separatingChaining.png)](https://github.com/WeareSoft/tech-interview/blob/master/contents/images/separatingChaining.png)
+        - Linked List(데이터 6개 이하) 또는 Red-Black Tree(데이터 8개 이상) 사용 [![separatingChaining](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/separatingChaining.png)](https://github.com/WeareSoft/tech-interview/blob/master/contents/images/separatingChaining.png)
         - Linked List 사용 시 충돌이 발생하면 충돌 발생한 인덱스가 가리키고 있는 Linked List에 노드 추가하여 Value 삽입
         - Key에 대한 Value 탐색 시에는 인덱스가 가리키고 있는 Linked List를 선형 검색하여 Value 반환 (삭제도 마찬가지)
         - Linked List 구조를 사용하기 때문에 추가 데이터 수 제약이 적은편
@@ -271,7 +269,7 @@ class Node {
 
 ## 그래프(Graph)와 트리(Tree)의 차이점
 
-![img](https://github.com/WeareSoft/tech-interview/raw/master/contents/images/graph-vs-tree.png)
+![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/graph-vs-tree.png)
 
 ## Binary Heap
 
