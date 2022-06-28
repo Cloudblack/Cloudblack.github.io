@@ -22,7 +22,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}
-                        <li><a href="/categories/CS" class="">CS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/CS" class="">Computer science ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -30,14 +30,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database_fundamentals" %}
-                        <li><a href="/categories/Database_fundamentals" class="">데이터베이스의 기본사항 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Database_fundamentals" class="">Database_fundamentals ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Workflow_scheduling" %}
-                        <li><a href="/categories/Workflow_scheduling" class="">워크플로우 스케줄링 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Workflow_scheduling" class="">Workflow_scheduling ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
