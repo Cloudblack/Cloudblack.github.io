@@ -41,6 +41,22 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <span class="nav__sub-title">ML/DL</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "DL" %}
+                        <li><a href="/categories/DL" class="">Deep Learning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ML" %}
+                        <li><a href="/categories/ML" class="">Machine Learning ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>    
       </li>
   </ul>
 </nav>

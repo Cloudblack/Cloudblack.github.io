@@ -125,7 +125,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Cloudblack"
     - label: "Notion"
-      icon: "fab fa-fw fa-book"
+      icon: "fa-solid fa-book"
       url: "https://www.notion.so/cloudblack/c48953abde4f48a1930d55b2e3c9d88d"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
