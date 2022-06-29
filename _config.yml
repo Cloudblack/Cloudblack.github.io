@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "김석재"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "스스로 발전해 나갑니다 <br> 잘못된 부분이있다면 댓글로 알려주세요"
+  bio              : "노션에서 옮겨오는 중입니다 <br> 기존 노션링크는 아래에 있습니다"
   location         : "Republic of Korea"  
   links:
     - label: "Email"
@@ -124,6 +124,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Cloudblack"
+    - label: "Notion"
+      icon: "fab fa-fw fa-book"
+      url: "https://www.notion.so/cloudblack/c48953abde4f48a1930d55b2e3c9d88d"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
@@ -140,8 +143,11 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Cloudblack"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    - label: "Notion"
+      icon: "fab fa-fw fa-book"
+      url: "https://www.notion.so/cloudblack/c48953abde4f48a1930d55b2e3c9d88d"  
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
       # url:
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
