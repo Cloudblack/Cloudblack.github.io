@@ -28,7 +28,7 @@ toc_sticky: true
 
     ![image-20220629152216461](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/image-20220629152216461.png)
 
-## 
+
 
 딥러닝 ⇒ 값을 기준으로 로스를 줄여 가중치를 찾는것
 
@@ -90,14 +90,22 @@ toc_sticky: true
 
 - 가중치는 어떻게 갱신될까?
 
-    이 과정에서 역전파의 주요 메커니즘인 **편미분**과 **Chain rule(연쇄 법칙)**이 사용됩니다.위 식에서 볼 수 있었던 것처럼 특정 가중치 (θi) 에 대한 기울기는 아래 식과 같이 손실 함수를 해당 가중치로 **편미분**하여 구할 수 있습니다.
+    이 과정에서 역전파의 주요 메커니즘인 **편미분**과 **Chain rule(연쇄 법칙)**이 사용됩니다.위 식에서 볼 수 있었던 것처럼 특정 가중치 (θi) 에 대한 기울기는 아래 식과 같이 손실 함수를 해당 가중치로 **편미분**하여 구할 수 있습니다.  
+    
+    
     $$
     $\frac{\partial}{\partial \theta_i} J(\theta)$
     $$
-    그렇다면 모든 가중치에 대한 값은 어떻게 구할 수 있을까요?여기서 바로 **Chain rule**이 적용됩니다.연쇄 법칙이란 아래 식과 같이 특정 변수에 대한 (편)미분 값을 다른 변수의 미분을 사용하여 나타낼 수 있는 방식입니다.
+    
+    
+    그렇다면 모든 가중치에 대한 값은 어떻게 구할 수 있을까요?여기서 바로 **Chain rule**이 적용됩니다.연쇄 법칙이란 아래 식과 같이 특정 변수에 대한 (편)미분 값을 다른 변수의 미분을 사용하여 나타낼 수 있는 방식입니다.    
+    
+    
     $$
     $\frac{\partial J(\theta)}{\partial \theta_i} = \frac{\partial J(\theta)}{\partial \theta_x} \cdot \frac{\partial \theta_x}{\partial \theta_i} = \frac{\partial J(\theta)}{\partial \theta_x} \cdot \frac{\partial \theta_x}{\partial \theta_y} \cdot \frac{\partial \theta_y}{\partial \theta_i}$
     $$
+    
+    
     연쇄 법칙을 사용하여 각 변수가 얼마나 수정되어야 할 지에 대한 정보를 전달할 수 있게 됩니다.
 
 ## 경사 하강법
