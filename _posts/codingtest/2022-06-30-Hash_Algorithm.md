@@ -2,7 +2,7 @@
 layout: post
 title: "Hash Algorithm"
 categories:
-  - CS
+  - CT
 tags:
   - [Hash, Algorithm]
 
@@ -143,9 +143,7 @@ Counter('hello world') # Counter({'l': 3, 'o': 2, 'h': 1, 'e': 1, ' ': 1, 'w': 1
 
 ------
 
-**알림**
 
-2021년 3월 4일, 테스트 케이스가 변경되었습니다. 이로 인해 이전에 통과하던 코드가 더 이상 통과하지 않을 수 있습니다.
 
 ```python
 def solution(phone_book):  
