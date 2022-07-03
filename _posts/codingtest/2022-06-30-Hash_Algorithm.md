@@ -341,4 +341,3 @@ def solution(genres, plays):
 ```
 
 람다.. 람다 정말 활용법이 많은것 같다
-
