@@ -42,6 +42,22 @@
                 {% endfor %}
             </ul>    
             <!--             경계선             -->    
+            <span class="nav__sub-title">Coding Test</span>         
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CT" %}
+                        <li><a href="/categories/CT" class="">Algorithm Python({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>  
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "CTSQL" %}
+                        <li><a href="/categories/ETC" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <!--             경계선             -->    
             <span class="nav__sub-title">ETC</span>           
             <ul>                
                 {% for category in site.categories %}
@@ -56,14 +72,7 @@
                         <li><a href="/categories/CS" class="">Computer science ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CT" %}
-                        <li><a href="/categories/CT" class="">Coding Test ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            </ul>            
       </li>
   </ul>
 </nav>
