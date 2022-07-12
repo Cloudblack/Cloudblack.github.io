@@ -293,8 +293,6 @@ ORDER BY ANIMAL_ID
 
 포맷 표시 형식 
 
-<detail>
-
 | FORMAT          | 설명                                      |
 | --------------- | ----------------------------------------- |
 | %M              | Month 월(Janeary, February ...)           |
@@ -325,8 +323,6 @@ ORDER BY ANIMAL_ID
 | %u              | Week 주(시작 월요일)                      |
 | %V              | Week 주(시작: 일요일)                     |
 | %v              | Week 주(시작:월요일)                      |
-
-</detail>
 
 ---
 
