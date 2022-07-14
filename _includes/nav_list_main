@@ -72,7 +72,14 @@
                         <li><a href="/categories/CS" class="">Computer science ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>            
+            </ul>  
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "TIL" %}
+                        <li><a href="/categories/TIL" class="">Today I Learn ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>          
       </li>
   </ul>
 </nav>
