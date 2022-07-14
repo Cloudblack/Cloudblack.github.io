@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 0;
+  padding-right: 0;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -52,7 +52,7 @@ body {
     margin-top: 1em;
     margin-left: 0;
     margin-right: 0;
-    width: 200%;
+    width: 150%;
     clear: both;
 
     .page__content,
