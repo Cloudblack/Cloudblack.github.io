@@ -4,8 +4,8 @@
 
 #main {
   @include clearfix;
-  margin-left: $right-sidebar-width;
-  margin-right: auto;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
