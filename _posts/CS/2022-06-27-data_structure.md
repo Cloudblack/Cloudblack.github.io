@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "자료구조"
 categories:
   - CS
@@ -17,7 +17,7 @@ toc_sticky: true
 
 자료구조는 메모리를 효율적으로 사용하기위해 공부할 필요가있다
 
-- [TOC]
+- 
 
 - 
 

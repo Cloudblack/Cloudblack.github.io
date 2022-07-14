@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "신경망 학습"
 categories:
   - DL

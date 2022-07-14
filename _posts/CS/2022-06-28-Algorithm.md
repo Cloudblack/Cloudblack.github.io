@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Algorithm"
 categories:
   - CS
@@ -15,7 +15,7 @@ toc_sticky: true
 
 # 알고리즘
 
-[TOC]
+
 
 
 

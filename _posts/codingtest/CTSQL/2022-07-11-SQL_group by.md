@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "SQL Group by"
 categories:
   - CTSQL

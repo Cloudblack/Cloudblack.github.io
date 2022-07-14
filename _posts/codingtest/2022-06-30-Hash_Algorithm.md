@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Hash Algorithm"
 categories:
   - CT

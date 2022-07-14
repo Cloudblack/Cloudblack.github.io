@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Stack Queue Algorithm"
 categories:
   - CT

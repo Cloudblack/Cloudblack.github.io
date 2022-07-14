@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Apache Hadoop이란?"
 categories:
   - ETC

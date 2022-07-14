@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "SQL String, Date"
 categories:
   - CTSQL

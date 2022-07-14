@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "AWS Kinesis"
 categories:
   - AWS

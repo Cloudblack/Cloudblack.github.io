@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "SQL is null"
 categories:
   - CTSQL
