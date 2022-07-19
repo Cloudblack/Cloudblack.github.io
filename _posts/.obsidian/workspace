@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "c10f7b6795430ccd",
+    "type": "split",
+    "children": [
+      {
+        "id": "0372b6126af90433",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ETC/2022-07-19-220719.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c10251564fa3800a",
+    "type": "split",
+    "children": [
+      {
+        "id": "292b75cdd653d8bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d48e95318f415a8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bce3222f27d400c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "885ea982476bfba3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8f8d7559281126ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd3f77a3b9ef2d04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a90b3ad0038b7bbb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ETC/2022-07-19-220719.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d8ef21e74f83df63",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ETC/2022-07-19-220719.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "318a3d01e38d30f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "999d33fc4c1a9fee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ETC/2022-07-19-220719.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0372b6126af90433",
+  "lastOpenFiles": [
+    "ETC/기본템플릿.md",
+    "ETC/2022-06-02-220705.md",
+    "ETC/2022-07-07-DE.md",
+    "ETC/2022-06-02-first.md",
+    "Data_processing/Kafka.md",
+    "ETC/2022-06-28-OOP.md",
+    "ETC/2022-07-03-클라우드 환경.md",
+    "DL/2022-06-29-Perceptron.md",
+    "AWS/AWS_Glue.md",
+    "AWS/AWS_kinesis.md"
+  ]
+}
