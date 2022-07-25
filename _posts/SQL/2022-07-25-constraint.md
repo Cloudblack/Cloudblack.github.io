@@ -1,4 +1,5 @@
 ---
+published: true
 layout: single
 title: "제약조건"
 categories:

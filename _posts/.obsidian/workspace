@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL/2022-07-24-database.md",
+            "file": "Templater/Gitblog yaml.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/2022-07-24-database.md",
+                "file": "Templater/Gitblog yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/2022-07-24-database.md",
+                "file": "Templater/Gitblog yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/2022-07-24-database.md"
+                "file": "Templater/Gitblog yaml.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "8944901fa495496c",
   "lastOpenFiles": [
-    "TIL/2022-07-19-2022-07-19.md",
-    "TIL/2022-07-15-2022-07-15.md",
+    "Workflow_scheduling/2022-06-28-Airflow.md",
     "TIL/2022-07-14-2022-07-14.md",
     "TIL/2022-06-02-2022-07-05.md",
-    "Templater/Gitblog yaml.md",
-    "Templater/회고.md",
-    "SQL/2022-07-24-user.md",
-    "SQL/2022-07-24-Type.md",
+    "Templater/날짜입력.md",
+    "SQL/2022-07-24-pymysql.md",
+    "ETC/2022-07-07-DE.md",
     "ETC/2022-07-03-클라우드 환경.md",
-    "ETC/2022-07-07-DE.md"
+    "ETC/2022-06-28-OOP.md",
+    "ETC/2022-06-02-first.md",
+    "DL/2022-06-29-Perceptron.md"
   ]
 }

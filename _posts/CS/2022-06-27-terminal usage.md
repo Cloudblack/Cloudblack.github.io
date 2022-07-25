@@ -1,4 +1,5 @@
 ---
+published: true
 layout: single
 title: "linux 터미널 명령어 모음"
 categories:

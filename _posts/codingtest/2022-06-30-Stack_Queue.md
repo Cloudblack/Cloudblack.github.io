@@ -1,4 +1,5 @@
 ---
+published: true
 layout: single
 title: "Stack Queue Algorithm"
 categories:
