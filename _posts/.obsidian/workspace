@@ -7,8 +7,12 @@
         "id": "8944901fa495496c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "AWS/AWS_Glue.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS/AWS_Glue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AWS/AWS_Glue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AWS/AWS_Glue.md"
+              }
             }
           },
           {
@@ -136,8 +144,10 @@
     "direction": "horizontal",
     "width": 201
   },
-  "active": "9d48e95318f415a8",
+  "active": "8944901fa495496c",
   "lastOpenFiles": [
+    "AWS/AWS.md",
+    "2022-07-24-.md",
     "ETC/2022-06-28-OOP.md",
     "DL/2022-06-29-Perceptron.md",
     "Day Planners/Day Planner-20220726.md",
@@ -145,8 +155,6 @@
     "Workflow_scheduling/2022-06-28-Airflow.md",
     "TIL/2022-07-14-2022-07-14.md",
     "TIL/2022-06-02-2022-07-05.md",
-    "Templater/날짜입력.md",
-    "SQL/2022-07-24-pymysql.md",
-    "ETC/2022-07-07-DE.md"
+    "Templater/날짜입력.md"
   ]
 }
