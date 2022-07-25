@@ -1,4 +1,7 @@
 {
   "theme": "obsidian",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 23,
+  "textFontFamily": "D2Coding"
 }

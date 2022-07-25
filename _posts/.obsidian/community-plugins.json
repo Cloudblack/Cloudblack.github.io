@@ -1,3 +1,12 @@
 [
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-admonition",
+  "table-editor-obsidian",
+  "obsidian-checklist-plugin",
+  "obsidian-day-planner",
+  "obsidian-dictionary-plugin",
+  "obsidian-emoji-toolbar",
+  "cm-typewriter-scroll-obsidian",
+  "templater-obsidian",
+  "obsidian-style-settings"
 ]

@@ -1,5 +1,5 @@
 {
-  "format": "YYYY-MM-DD-YYMMDD",
-  "folder": "ETC",
+  "format": "YYYY-MM-DD-기록 YYYY-MM-DD",
+  "folder": "TIL",
   "template": "ETC/기본템플릿"
 }

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0372b6126af90433",
+        "id": "8944901fa495496c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ETC/2022-07-19-220719.md",
+            "file": "SQL/2022-07-25-내장함수.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETC/2022-07-19-220719.md",
+                "file": "SQL/2022-07-25-내장함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,9 +94,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ETC/2022-07-19-220719.md",
+                "file": "SQL/2022-07-25-내장함수.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -117,28 +117,45 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ETC/2022-07-19-220719.md"
+                "file": "SQL/2022-07-25-내장함수.md"
               }
             }
+          },
+          {
+            "id": "8172c820ec134e95",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1c0073cb3d03845",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 201,
     "collapsed": true
   },
-  "active": "0372b6126af90433",
+  "active": "8944901fa495496c",
   "lastOpenFiles": [
-    "ETC/기본템플릿.md",
-    "ETC/2022-06-02-220705.md",
-    "ETC/2022-07-07-DE.md",
-    "ETC/2022-06-02-first.md",
-    "Data_processing/Kafka.md",
-    "ETC/2022-06-28-OOP.md",
-    "ETC/2022-07-03-클라우드 환경.md",
-    "DL/2022-06-29-Perceptron.md",
-    "AWS/AWS_Glue.md",
-    "AWS/AWS_kinesis.md"
+    "SQL/2022-07-25-다중연산 테이블.md",
+    "SQL/2022-07-25-내장함수.md",
+    "SQL/2022-07-24-pymysql.md",
+    "SQL/2022-07-25-View.md",
+    "SQL/2022-07-25-Index.md",
+    "SQL/2022-07-25-constraint.md",
+    "SQL/2022-07-24-Type.md",
+    "SQL/2022-07-24-user.md",
+    "SQL/2022-07-24-database.md",
+    "SQL/2022-07-25-Operator.md"
   ]
 }
