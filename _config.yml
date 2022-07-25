@@ -13,7 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-futrue: true
+
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Cloudblack blog"
@@ -27,6 +27,7 @@ repository               : "Cloudblack/Cloudblack.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Git Blog"
+futrue: true
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
