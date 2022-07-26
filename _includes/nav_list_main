@@ -53,10 +53,23 @@
             <ul>                
                 {% for category in site.categories %}
                     {% if category[0] == "CTSQL" %}
-                        <li><a href="/categories/CTSQL" class="">SQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/CTSQL" class="">SQL TEST ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> <!--             경계선             -->    
+            <span class="nav__sub-title">DATABASE</span>           
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "Modeling" %}
+                        <li><a href="/categories/Modeling" class="">Modeling ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>            
             <!--             경계선             -->    
             <span class="nav__sub-title">ETC</span>           
             <ul>                

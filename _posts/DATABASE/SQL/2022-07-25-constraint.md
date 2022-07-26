@@ -44,6 +44,7 @@ CREATE TABLE Test(
     );
 ```
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220725123339.png)
+
 NOT NULL 제약 조건이란 해당 필드에 NULL 값을 저장할 수 없도록 설정하는 것으로, 해당 필드를 생략하지 못하도록 하는 제약 조건은 아닙니다.
 
 따라서 INSERT 문으로 레코드를 저장할 때 NOT NULL 제약 조건이 설정된 필드의 값을 생략할 수도 있습니다.
@@ -287,6 +288,7 @@ CREATE TABLE Test2(
     );
 ```
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220725131604.png)
+
 위의 예제에서 Test2 테이블의 ParentID 필드는 Test1 테이블의 ID 필드를 참조하도록 설정됩니다.
 따라서 Test1 테이블의 ID 필드가 변경되면, 같은 값의 Test2 테이블의 ParentID 필드도 같이 변경됩니다.
 
@@ -307,6 +309,8 @@ FOREIGN KEY (ID)
 REFERENCES Customer (ID);
 ```
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220725131742.png)
+
+
 FOREIGN KEY 제약 조건을 삭제
 ``` mysql
 ALTER TABLE 테이블이름
