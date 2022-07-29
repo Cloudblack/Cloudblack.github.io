@@ -25,8 +25,27 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% for category in site.categories %}
+                    {% if category[0] == "MODELING" %}
+                        <li><a href="/categories/MODELING" class="">MODELING ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>           
             <!--             경계선             -->    
-            <span class="nav__sub-title">ML/DL</span>
+            <span class="nav__sub-title">Data Science</span>
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "DA" %}
+                        <li><a href="/categories/DA" class="">Data Analyst ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>                
                 {% for category in site.categories %}
                     {% if category[0] == "DL" %}
@@ -56,20 +75,8 @@
                         <li><a href="/categories/CTSQL" class="">SQL TEST ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul> <!--             경계선             -->    
-            <span class="nav__sub-title">DATABASE</span>           
-            <ul>                
-                {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-                {% for category in site.categories %}
-                    {% if category[0] == "Modeling" %}
-                        <li><a href="/categories/Modeling" class="">Modeling ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>            
+                    
+             
             <!--             경계선             -->    
             <span class="nav__sub-title">ETC</span>           
             <ul>                
@@ -78,14 +85,7 @@
                         <li><a href="/categories/ETC" class="">ETC ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul>                
-                {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            </ul>            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}

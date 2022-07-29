@@ -348,6 +348,8 @@ CREATE TABLE Test2(
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220725201132.png)
 
 ## DEFAULT
+
+
 DEFAULT 제약 조건은 해당 필드의 기본값을 설정할 수 있게 해줍니다.
 
 만약 레코드를 입력할 때 해당 필드 값을 전달하지 않으면, 자동으로 설정된 기본값을 저장합니다.
