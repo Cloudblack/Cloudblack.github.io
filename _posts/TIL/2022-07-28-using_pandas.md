@@ -4,7 +4,7 @@ layout: single
 title: "PANDAS로 데이터를 처리해보고 시각화해보자"
 categories:
   - TIL
-  - PANDAS
+  - DA
 tags:
   - [TIL,PANDAS,시각화]
 
