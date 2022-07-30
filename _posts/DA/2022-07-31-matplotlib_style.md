@@ -3,6 +3,7 @@ published: true
 layout: single
 title: "matplotlib style"
 categories:
+  - TIL
   - DA
 tags:
   - DA
