@@ -2,13 +2,12 @@
 ---
 published: true
 layout: single
-title: "matplotlib style"
+title: "Matplotlib style"
 categories:
   - TIL
   - DA
 tags:
-  - DA
-  - Matplotlib
+  - [TIL,PANDAS,시각화]
 
 toc: true
 toc_sticky: true
