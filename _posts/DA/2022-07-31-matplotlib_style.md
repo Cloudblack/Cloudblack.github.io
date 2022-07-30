@@ -1,3 +1,4 @@
+
 ---
 published: true
 layout: single
@@ -13,6 +14,7 @@ toc: true
 toc_sticky: true
 
 ---
+# Matplotlib Style!
 
 matplotlib을 보다보니 너무 못생긴 모습에 이것저것 컬러를 만져봐도 색감각이 없어서인지 완전 보노보노급이다
 
