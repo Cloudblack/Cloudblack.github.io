@@ -1,11 +1,12 @@
 ---
 published: true
 layout: single
-title: "matplotlib_style "
+title: "matplotlib style"
 categories:
   - DA
 tags:
-  - [DA,Matplotlib]
+  - DA
+  - Matplotlib
 
 toc: true
 toc_sticky: true
@@ -16,6 +17,7 @@ matplotlib을 보다보니 너무 못생긴 모습에 이것저것 컬러를 만
 
 그렇게 찾다보니 stytle이라는걸 찾았는데 꽤나 상태가 괜찮아진다
 다양한 스타일은 여기서 보면 될 것 같다
+
 [matplotlib style sheet github](https://github.com/topics/matplotlib-style-sheets)
 
 그리고 아래로 내가 본 몇개를 소개하겠다
@@ -23,11 +25,13 @@ matplotlib을 보다보니 너무 못생긴 모습에 이것저것 컬러를 만
 먼저 
 ## Default
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220731014304.png)
+
 이상한건 아닌데 뭔가 많이 어색하다
 
 
 
 ## [dufte](https://github.com/nschloe/dufte)
+
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220731015128.png)
 
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220731015538.png)

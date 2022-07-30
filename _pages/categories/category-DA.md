@@ -1,5 +1,5 @@
 ---
-title: "DS"
+title: "Data Analyst"
 layout: category
 permalink: categories/DA
 author_profile: true
