@@ -1,19 +1,17 @@
-
 ---
 published: true
 layout: single
 title: "Matplotlib style"
 categories:
-  - TIL
   - DA
 tags:
-  - [TIL,PANDAS,시각화]
+  - Matplotlib
 
 toc: true
 toc_sticky: true
 
 ---
-# Matplotlib Style!
+# Matplotlib Style
 
 matplotlib을 보다보니 너무 못생긴 모습에 이것저것 컬러를 만져봐도 색감각이 없어서인지 완전 보노보노급이다
 
@@ -39,7 +37,8 @@ matplotlib을 보다보니 너무 못생긴 모습에 이것저것 컬러를 만
 ![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220731015538.png)
 
 
-이쪽에서 밀고있는건 연한 색감에 최대한 아무것도 안보이게 하는 스타일을 밀고있다
+이쪽에서 밀고있는건 연한 색감에 최대한 아무것도 안보이게 하는 스타일을 밀고있다  
+
 기본에서 크게 벗어나지않는데 조금 자연스러운 것 같다
 SIMPLE IS IMPACT
 ``` python
@@ -88,4 +87,5 @@ plt.style.use("cyberpunk")
 
 
 여기서 보여준건 각 style들기능에서도 그냥 기본적인 기능만을 사용했다
+
 github에 들어가서 자세히보고 사용하면 더욱 좋은 스타일을 만들 수 있을 것이다

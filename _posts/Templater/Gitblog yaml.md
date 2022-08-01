@@ -1,11 +1,11 @@
 ---
 published: true
 layout: single
-title: "<% tp.file.title %>"
+title: <% tp.file.title.split("-")[3] %>
 categories:
   - <% tp.file.folder() %>
 tags:
-  - [<% tp.file.folder() %>]
+  - <% tp.file.title.split("-")[3] %>
 
 toc: true
 toc_sticky: true
