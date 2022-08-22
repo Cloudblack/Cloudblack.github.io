@@ -13,6 +13,13 @@
         <span class="nav__sub-title">Data Engineering</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "DE" %}
+                        <li><a href="/categories/DE" class="">data engineer ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Database_fundamentals" %}
                         <li><a href="/categories/Database_fundamentals" class="">Database_fundamentals ({{category[1].size}})</a></li>
                     {% endif %}
