@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: pt_trip_count
+title: 스파크로 간단하게 데이터를 다뤄보자
 categories:
   - SPARK
 tags:
@@ -153,9 +153,7 @@ sc = SparkContext(conf=conf)
 
 ```
 
-<pre>
-' \n    위에서 설정한 conf값을 넣어준다.\n    sparkcontext로 만든 객체를 sc라고 지정해주는 컨벤션이있다.\n'
-</pre>
+
 
 ```python
 #데이터가 있는 위치  
@@ -168,9 +166,7 @@ filename = "fhvhv_tripdata_2020-03.csv"
 """
 ```
 
-<pre>
-'\n    이부분도 문제가있었는데 항상 git bash를 쓰다가 윈도우라서 어쩔 수 없이 파워쉘을 쓰게되었는데\n    이미 익숙해져 linux처럼 썼더니 경로 인식을 하지못했다. 또 일반적인 윈도우 형식으로 쓰니  \n    \\를 인식하지 못해 \\를 두개씩 써 해결했다.\n'
-</pre>
+
 ### 데이터 로드
 
 
