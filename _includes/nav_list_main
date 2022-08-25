@@ -20,6 +20,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "SPARK" %}
+                        <li><a href="/categories/SPARK" class="">SPARK ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Database_fundamentals" %}
                         <li><a href="/categories/Database_fundamentals" class="">Database_fundamentals ({{category[1].size}})</a></li>
                     {% endif %}
