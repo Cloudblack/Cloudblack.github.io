@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: SPARK Python worker exited unexpectedly
+title: error Python worker exited unexpectedly
 categories:
   - SPARK
 tags:
