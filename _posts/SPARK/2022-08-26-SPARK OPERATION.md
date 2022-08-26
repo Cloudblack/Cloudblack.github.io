@@ -201,24 +201,15 @@ categoryReviws라는 RDD가 두번 사용되는데 persist()로 메모리에 남
 
 
 
-> collect() 전부 가져와서 보여준다
-
-> count() 갯수를 세준다
-
-> first() 첫번째 데이터만 보여준다
-
-> distinct() 중복을 제거한다
-
-> countByValue() 값을 기준으로 세어준다
-
-> take(n) n개만큼 보여준다
-
-> top(n) 내림차순으로 정렬하고 상위 n개를 보여준다
-
+> collect() 전부 가져와서 보여준다  
+> count() 갯수를 세준다  
+> first() 첫번째 데이터만 보여준다  
+> distinct() 중복을 제거한다  
+> countByValue() 값을 기준으로 세어준다  
+> take(n) n개만큼 보여준다  
+> top(n) 내림차순으로 정렬하고 상위 n개를 보여준다  
 > reduce  
-
 > fold  
-
 > foreach 요소를 하나하나 꺼내서 적용시킴 (워커에서 동작하고 드라이브에서는 볼 수 없음)
 
 
@@ -344,22 +335,14 @@ foods.top(4)
 
 
 
-> map(f) 하나하나함수를 적용
-
-> flatMap(f) 하나하나 함수를 적용하고 중첩리스트를 제거
-
+> map(f) 하나하나함수를 적용  
+> flatMap(f) 하나하나 함수를 적용하고 중첩리스트를 제거  
 > filter(f) 필터로 걸러낸다  
-
-> distinct 중복을 제거
-
+> distinct 중복을 제거  
 > reduceByKey  
-
-> groupByKey(f) 그룹화한다
-
+> groupByKey(f) 그룹화한다  
 > mapValues  
-
 > flatMapValues  
-
 > sortByKey
 
 ### Narrow Transformations  
