@@ -34,6 +34,8 @@ date modified: 금요일, 8월 26일 2022
 - Eager Execution 즉시 실행
 > collect  
 > count  
+> first
+> distinct
 > countByValue  
 > take  
 > top  
