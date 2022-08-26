@@ -7,8 +7,8 @@ tags:
   - error
 toc: true
 toc_sticky: true
-date created: 금요일, 8월 26일 2022, 10:55:40 오전
-date modified: 금요일, 8월 26일 2022, 5:17:06 오후
+date created: 금요일, 8월 26일 2022
+date modified: 금요일, 8월 26일 2022
 ---
 
 ``` python
