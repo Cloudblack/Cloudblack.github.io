@@ -1,5 +1,8 @@
 {% assign sum = site.posts | size %}
 
+
+
+
 <nav class="nav__list">
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
@@ -39,18 +42,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <ul>                
-                {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-                {% for category in site.categories %}
-                    {% if category[0] == "MODELING" %}
-                        <li><a href="/categories/MODELING" class="">MODELING ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>           
+                 
             <!--             경계선             -->    
             <span class="nav__sub-title">Data Science</span>
             <ul>                
@@ -60,6 +52,20 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/SQL" class="">SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>     
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MODELING" %}
+                        <li><a href="/categories/MODELING" class="">MODELING ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>      
             <ul>                
                 {% for category in site.categories %}
                     {% if category[0] == "DL" %}
@@ -79,41 +85,42 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CT" %}
-                        <li><a href="/categories/CT" class="">Algorithm Python({{category[1].size}})</a></li>
+                        <li><a href="/categories/CT" class="">Python({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>  
             <ul>                
                 {% for category in site.categories %}
                     {% if category[0] == "CTSQL" %}
-                        <li><a href="/categories/CTSQL" class="">SQL TEST ({{category[1].size}})</a></li>
+                        <li><a href="/categories/CTSQL" class="">SQL({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-                    
-             
             <!--             경계선             -->    
-            <span class="nav__sub-title">ETC</span>           
-            <ul>                
-                {% for category in site.categories %}
-                    {% if category[0] == "ETC" %}
-                        <li><a href="/categories/ETC" class="">ETC ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>            
+            <span class="nav__sub-title">Computer Science</span>              
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CS" %}
                         <li><a href="/categories/CS" class="">Computer science ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>  
+            </ul>   
+            <!--             경계선             -->    
+            <span class="nav__sub-title">ETC</span>           
+                           
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "TIL" %}
                         <li><a href="/categories/TIL" class="">Today I Learn ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>          
+            </ul>  
+            <ul>                
+                {% for category in site.categories %}
+                    {% if category[0] == "ETC" %}
+                        <li><a href="/categories/ETC" class="">ETC ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>                 
       </li>
   </ul>
 </nav>
