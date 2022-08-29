@@ -42,6 +42,13 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "AWS" %}
+                        <li><a href="/categories/AWS" class="">AWS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
                  
             <!--             경계선             -->    
             <span class="nav__sub-title">Data Science</span>

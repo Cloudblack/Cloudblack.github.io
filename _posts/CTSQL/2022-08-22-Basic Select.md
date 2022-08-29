@@ -1,16 +1,16 @@
 ---
 published: true
 layout: single
-title: Revising the Select Query
+title: Basic Select
 categories: [CTSQL]
 tags:
-  - Select
-  - 해커랭크
+  - Basic Select
 toc: true
 toc_sticky: true
 date created: 월요일, 8월 22일 2022
-date modified: 토요일, 8월 27일 2022
+date modified: 월요일, 8월 29일 2022
 ---
+
 프로그래머스에있는 sql문제를 모두 풀었다.  
 한글로된 sql 문제 사이트를 더 찾지는 못했고  
 앞으로를 위해서라도 영어로된 sql문제를 풀어보기위해 해커랭크를 시작하기로했다.
@@ -65,3 +65,14 @@ select * from city
 ```
 
 아직 쉽다…
+
+---
+<https://www.hackerrank.com/challenges/select-by-id/problem?isFullScreen=true&h_r=next-challenge&h_v=zen>
+Query all columns for a city in **CITY** with the _ID_ `1661`.
+The **CITY** table is described as follows
+![](https://raw.githubusercontent.com/Cloudblack/Forpicture/image//img/20220829193916.png)
+
+city테이블에서 ID가 1661인 것에서 모든 컬럼을 쿼리하라
+``` mysql
+select * from city where id = 1661
+```
