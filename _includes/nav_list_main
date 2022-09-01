@@ -112,7 +112,69 @@
                     {% endif %}
                 {% endfor %}
             </ul>  
-            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Date_Structure" %}
+                        <li><a href="/categories/Date_Structure" class="">Date_Structure ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Network" %}
+                        <li><a href="/categories/Network" class="">Network ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Operating_System" %}
+                        <li><a href="/categories/Operating_System" class="">Operating_System ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Computer_Architecture" %}
+                        <li><a href="/categories/Computer_Architecture" class="">Computer_Architecture ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "DataBase" %}
+                        <li><a href="/categories/DataBase" class="">DataBase ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Design_Pattern" %}
+                        <li><a href="/categories/Design_Pattern" class="">Design_Pattern ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Algorithm" %}
+                        <li><a href="/categories/Algorithm" class="">Algorithm ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Security" %}
+                        <li><a href="/categories/Security" class="">Security ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>    
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CS50" %}
+                        <li><a href="/categories/CS50" class="">CS50 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
             <!--             경계선             -->    
         <span class="nav__sub-title">ETC</span>
             <ul>
