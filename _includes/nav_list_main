@@ -102,6 +102,7 @@
                         <li><a href="/categories/CTSQL" class="">SQL({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul>
             <!--             경계선             -->    
             <span class="nav__sub-title">Computer Science</span>              
             <ul>
