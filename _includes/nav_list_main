@@ -51,7 +51,7 @@
             </ul>
                  
             <!--             경계선             -->    
-            <span class="nav__sub-title">Data Science</span>
+        <span class="nav__sub-title">Data Science</span>
             <ul>                
                 {% for category in site.categories %}
                     {% if category[0] == "DA" %}
@@ -88,7 +88,7 @@
                 {% endfor %}
             </ul>    
             <!--             경계선             -->    
-            <span class="nav__sub-title">Coding Test</span>         
+        <span class="nav__sub-title">Coding Test</span>         
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CT" %}
@@ -176,8 +176,7 @@
                 {% endfor %}
             </ul>   
             <!--             경계선             -->    
-            <span class="nav__sub-title">ETC</span>           
-                           
+        <span class="nav__sub-title">ETC</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "TIL" %}
