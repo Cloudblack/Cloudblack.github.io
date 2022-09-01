@@ -2,28 +2,19 @@
 published: true
 layout: single
 title: "자료구조"
-categories:
-  - CS
+categories: [Date_Structure]
 tags:
   - [Data Structure]
-
 toc: true
 toc_sticky: true
-
-
-
+date created: 월요일, 6월 27일 2022
+date modified: 목요일, 9월 1일 2022
 ---
 
 # 자료구조
-
 자료구조는 메모리를 효율적으로 사용하기위해 공부할 필요가있다
 
-- 
-
-- 
-
 ## Data Structure Essential (자료구조 본질)
-
 - 효율적인처리
 
     여러개를 한번에 처리, 반복을 처리 변수처리 등등 더욱 효율적으로 만드는것
@@ -73,7 +64,6 @@ toc_sticky: true
     - 입력값 n의 가장 큰 차수만 표기 -상수의 항을 고려하지 않는다
 
 ## Array
-
 - 배열은 하나의 변수에 여러개의 값을 순차적으로 저장한것이다
 - 처음에 지정한 배열의 공간이 부족해지면 추가를 할수없어 더큰 배열로 옮겨야한다
 - ![image-20220628222930509](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/image-20220628222930509.png)
@@ -99,7 +89,6 @@ toc_sticky: true
     - 최악 - 맨앞을 삭제하면 뒤의값을 전부 앞으로 땡겨야한다
 
 ## LinkedList
-
 - 노드안에 값과 포인터/링크(다음노드의)를 포함하고있다
 - 링크로 가져오는거라 메모리를 연속으로 차지하지않는다
 - 단방향,양방향 연결리스트가있다
@@ -117,9 +106,9 @@ toc_sticky: true
     - 첫 노드(head)부터 차례대로 값을 탐색해야한다⇒O(n)
 
 - ![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2928.png)
-- linked list는 두가지 정보가 필요하다 
-    - 1. data field 
-        2. link field 
+- linked list는 두가지 정보가 필요하다
+    - 1. data field
+        2. link field
 - <img src="https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2939.png" alt="img" style="zoom:67%;" />
 - HEAD는 시작점을 가르킨다
 - array와 linked list의 trade off
@@ -127,7 +116,6 @@ toc_sticky: true
 <img src="https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/2885.png" alt="img" style="zoom:67%;" />
 
 ## HashTable
-
 - HashTable 개념
 
     - Key와 Value를 1:1로 연관지어 저장하는 자료구조 (연관배열 구조)
@@ -221,16 +209,15 @@ toc_sticky: true
 
 - HashTable 성능
 
+    
     |      | 평균 | 최악 |
     | ---- | ---- | ---- |
     | 탐색 | O(1) | O(N) |
     | 삽입 | O(1) | O(N) |
     | 삭제 | O(1) | O(N) |
-
-
+    
 
 ## Stack
-
 - 스택(Stack)의 개념
     - 한 쪽 끝에서만 자료를 넣고 뺄 수 있는 LIFO(Last In First Out) 형식의 자료 구조
 - 특징
@@ -263,7 +250,6 @@ toc_sticky: true
         - 후위 표기법 계산
 
 ## Queue
-
 - 큐(Queue)의 개념
     - 컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어 넣은 데이터가 먼저 나오는 FIFO(First In First Out)구조로 저장하는 형식
     - ![image-20220629151308525](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/image-20220629151308525.png)
@@ -288,7 +274,6 @@ toc_sticky: true
         - 프로세스 관리
 
 ## Graph
-
 - 그래프(Graph)의 개념
     - 단순히 노드(N, node)와 그 노드를 연결하는 간선(E, edge)을 하나로 모아 놓은 자료 구조
         - 즉, 연결되어 있는 객체 간의 관계를 표현할 수 있는 자료 구조이다.
@@ -307,7 +292,6 @@ toc_sticky: true
     - 간선의 유무는 그래프에 따라 다르다.
 
 ## Tree
-
 - 트리(Tree)의 개념
 
 - ![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/Untitled.png)
@@ -386,7 +370,7 @@ class Node {
     
         - 노드가 **왼쪽에서 오른쪽 순서대로** 채워져있다.
     
-            ![img](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b8ce1d2c-cccd-4c63-b2e7-bbbc4d24f5c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220629T053221Z&X-Amz-Expires=86400&X-Amz-Signature=06572358fb16e62b3613ec10eb731b4c41e838ce95f21a78f6d93c5f5a8952fb&X-Amz-SignedHeaders=host&response-content-disposition=filename %3D"Untitled.png"&x-id=GetObject)
+            ![img](<https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b8ce1d2c-cccd-4c63-b2e7-bbbc4d24f5c3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220629%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220629T053221Z&X-Amz-Expires=86400&X-Amz-Signature=06572358fb16e62b3613ec10eb731b4c41e838ce95f21a78f6d93c5f5a8952fb&X-Amz-SignedHeaders=host&response-content-disposition=filename> %3D"Untitled.png"&x-id=GetObject)
     
     ### 포화이진트리
     
@@ -408,7 +392,7 @@ class Node {
             - 왼쪽 서브트리노드들의 값은 루트(부모)노드값보다 작아야 한다.
             - 오른쪽 서브트리노드들의 값은 루트(부모)노드값보다 커야 한다.
     
-        - 위에 대한 규칙이 정해진 이유는 
+        - 위에 대한 규칙이 정해진 이유는
     
             왼쪽부터 오른쪽으로 검색을 하는 구조
     
@@ -433,15 +417,12 @@ class Node {
         - 7보다 큰 오른쪽 자식노드는 **존재하지 않기때문에** 검색에 실패한다.
 
 ## 그래프(Graph)와 트리(Tree)의 차이점
-
 ![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/graph-vs-tree.png)
 
 ## Binary Heap
-
-https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
+<https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html>
 
 ## Red-Black Tree
-
 - [01. Red-Black Tree 개요](https://github.com/namjunemy/TIL/blob/master/Algorithm/red_black_tree_01.md)
 - [02. Red-Black Tree insert fix-up](https://github.com/namjunemy/TIL/blob/master/Algorithm/red_black_tree_02.md)
 - [03. Red-Black Tree delete, fix-up](https://github.com/namjunemy/TIL/blob/master/Algorithm/red_black_tree_03.md)

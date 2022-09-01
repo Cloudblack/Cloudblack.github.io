@@ -2,26 +2,18 @@
 published: true
 layout: single
 title: "Algorithm"
-categories:
-  - CS
+categories: [Algorithm]
 tags:
   - [Algorithm, Recursion, Divide and Conquer, BigO, linear search,binary search, 버블, 삽입, 선택, 병합, 퀵, 재귀, 분할, DFS, BFS, Greedy]
-
 toc: true
 toc_sticky: true
-
-
-
+date created: 수요일, 6월 29일 2022
+date modified: 목요일, 9월 1일 2022
 ---
 
 # 알고리즘
 
-
-
-
-
 ## 알고리즘?
-
 - 문제를 해결하기 위한 절차나 방법 (굳이 코딩이아니라 진짜 절차나 방법)
 - 알고리즘을 컴퓨터가 이해할 수 있는 형태로 바꿔주는 것이 코딩/프로그래밍
 - 구체적으로 순서를 표현하자
@@ -32,21 +24,17 @@ toc_sticky: true
     - 프로그래밍 기술을 향상 시키기 위해
 
 ### 알고리즘 설계 기법
-
 - 새로운 문제를 접했을때 문제를 해결 할 수 있는 방법을 설계하는 기법
 
 ## Search Algorithm Basic(검색 알고리즘 기본)
-
 - 원하는 데이터를 찾아내는 알고리즘
 
 ### Linear search(선형검색)
-
 - 맨 앞이나, 맨 뒤부터 순차적으로 하나하나 찾아보는 알고리즘
 - 가장 단순한 알고리즘
-- 최선  O(1) , 최악 O(n) , 평균 O(n)
+- 최선 O(1) , 최악 O(n) , 평균 O(n)
 
 ### Binary search(이진 검색)
-
 - 중간지점을 기준으로 데이터를 반씩 나눠서 검색 하는 알고리즘
 
     1. 중간 지점을 선택, 중간 지점 값과 타겟값을 비교
@@ -62,7 +50,6 @@ toc_sticky: true
 - 최선 O(1), 최악 O(n),평균 O(logN) (횟수가 반절날때)
 
 ## 정렬 알고리즘의 종류와 개념
-
 - 데이터가 들어왔을떄 이를 사용자가 지정한 기준에 맞게 데이터를 나열해서 출력하는 알고리즘이다
 - 필요성⇒빨리 찾기위함
     - 동일한 데이터 셋?
@@ -78,7 +65,6 @@ Best case : O(n log n)
 Average Case : O(n log n)
 
 ### 버블소트
-
 [버블소트 거품정렬 5분만에 이해하기 - Gunny](https://www.youtube.com/watch?v=RCnyz-Bfkmc)
 
 - 제일 처음 접하는 정렬 알고리즘
@@ -97,7 +83,6 @@ Average Case : O(n log n)
 [버블 정렬(Bubble Sort)](https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html)
 
 ### 삽입정렬
-
 - 배열의 모든 요소를 앞에서부터 차례대로 이미 정렬된 배열 부분과 비교해서 자신의 위치를 찾아 삽입한다.
 - 단순 삽입, 데이터를 올바른 위치에서 삽입하면서 자리를 바꿔준다
     - 맨 왼쪽의 2번쨰 요소 기준으로 선택
@@ -108,14 +93,12 @@ Average Case : O(n log n)
 - [삽입 정렬(insertion sort)](https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html)
 
 ### 선택정렬
-
 - 가장 작은 노드(최소값) 선택
 - 왼쪽부터 정렬하기 위해 알맞은 위치와 교환하는 작업을 반복
-- 최선 O(n^2), 최악 O(n^2), 평균 O(n^2)  ⇒ 무조건 다 비교하기 때문에
+- 최선 O(n^2), 최악 O(n^2), 평균 O(n^2) ⇒ 무조건 다 비교하기 때문에
 - [선택 정렬(selection sort)](https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html)
 
 #### 공통 특징
-
 - 3개의 알고리즘은 모두 제자리 정렬(in place sorting)
     - 정렬하고자 하는 배열 안에서 교환하는 방식⇒ 다른 메모리공간을 필요로 하지 않음
 - 작은 데이터/데이터베이스 기준으로는 모두 사용하기 좋은 알고리즘
@@ -125,10 +108,7 @@ Average Case : O(n log n)
     - 불안정 : 같은 값에서 교환이 일어난다
     - 안정 : 같은 값에서 교환이 일어나지 않는다
 
-
-
 ### 병합 정렬(Merge Sort) 알고리즘
-
 - 분할정복에 가장 충실한 알고리즘
 - 배열/리스트를 최대한 작게 나눠주고 다시 하나씩 합치면서 정렬을 하는 방법
 - 병합정렬 과정
@@ -141,16 +121,14 @@ Average Case : O(n log n)
 4. 데이터 집합이 다시 하나가 될 때까지 3을 반복한다.
 ```
 
-
-
 - [병합 정렬(merge sort)](https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html)
 
 ### 퀵 정렬 알고리즘
-
 - 정렬을 할 배열/리스트에서 기준이 되는 수(피벗,pivot) 정해주고, 이 피벗을 기준으로 왼쪽은 피벗보다 작은 수, 오른쪽은 피벗보다 큰 수로 배치를 작업하는 반복하는 정렬
 
 - 퀵정렬 과정
 
+    
     ```python
     1. 기준이 되는 피벗을 선택한다
         - 피벗은 가장 많이 사용되는 것은 맨 왼쪽값(리스트 0번째 인덱스, 정답은 ㅇ벗다)
@@ -162,6 +140,7 @@ Average Case : O(n log n)
     
     1. 피벗보다 작은 애들과 피벗보다 큰 애들을 각각 동일하게 위의 과정(퀵 정렬)을 수행한다(재귀적으로)
     ```
+    
 
 - 최선 O(NlogN) 고르게 반반 쪼개진경우, 최악 O(N^2) 불균형하게 쪼 개진경우
 
@@ -173,10 +152,7 @@ Average Case : O(n log n)
 
 ​		[퀵 정렬(quick sort)](https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html)
 
-
-
 #### 	퀵 정렬 vs 병합 정렬
-
 - 시간 복잡도
     - O(NlogN)
     - 퀵
@@ -203,14 +179,12 @@ stable sort
 
 - 정렬 알고리즘의 애니메이션 보기
 
-    - -> https://www.toptal.com/developers/sorting-algorithms
+    - -> <https://www.toptal.com/developers/sorting-algorithms>
 
 ## Recursion : 재귀 알고리즘
-
 스스로를 포함하는 함수로 반복문+스택으로 구성되어있다 (시작은 첫번째부터지만 return은 마지막) 무한 반복이 되기때문에 중지해줄 base case가 필요하며 반드시 스스로를 호출해야한다
 
 #### 재귀 (재귀 = 반복문+스택(LIFO))
-
 - 자기자신 함수를 다시 호출하는 것
 - 함수가 자기 자신을 다시 호출하여 작업을 반복적으로 수행하는 것
 - 함수 호출은 스택의 원리를 따르고 마지막에 호출된 함수가 먼저 종료된다.
@@ -219,35 +193,30 @@ stable sort
 - 재귀의 내부 코드를 되도록 간단하고 명료하게 작성하자
 
 #### 재귀의 조건
-
 1. base cace(기본 케이스,기저사례,종료조건)이 있어야한다
     - 재귀 에러를 방지하기 위해
 2. 추가 조건과 기본조건의 차이를 확인한다
     - 기본 케이스와 만날수있게(중지할수있게)
 3. 반드시 자기 자신을 호출해야한다
 
-반복문⇒ 재귀  안되는 경우가있고 빡세다
+반복문⇒ 재귀 안되는 경우가있고 빡세다
 
 ## Divide and Conquer : 분할 정복
-
 - 알고리즘 설계 기법, 알고리즘 디자인 패러다임
 - 복잡한 문제를 작은 단위로 문제를 즉각 해결 할 수 있을때 까지 **재귀적**으로 **나누고(Divide)** 이를 **해결한(Conquer)** 다음 그 결과를 이용해서 다시 전체 문제(복잡한 문제)를 해결하며 **합치는(Combine =Merge)** 방법
 
 #### 분할 정복 설계 단계:
-
 1. 분할: 원래를 분할하여 **비슷한 크기/ 유형**의 작은 문제로 나눈다
 2. 정복: 하위 문제를(해결 할 수 있을 정도로 작게) 각각 **재귀적으로** 해결 ⇒ Base Case설정이 필요하다
 3. 합치기: 필요하면, 하위 문제들의 답을 합쳐서 원래
 
 #### 재귀 vs 분할 정복
-
 - 공통점 : 복잡한 큰 문제를 작은 단위로 나눠서 해결하려고 한다.
 - 차이점
     - 분할정복 : 비슷한 작업을 재진행(같은 함수가 아닐수있다), 동일한 비율로 나눔
     - 재귀호출 : 같은 함수를 재호출(같은 함수 사용) ,1과 나머지로 나눔
 
 ## Dynamic Programming / Memoization : 동적 프로그래밍
-
 - Dynamic Programming (=동적 계획법)
 
     - 하나의 문제를 여러 작은 문제의 답을 재사용 하여 문제를 효율적으로 푸는 것
@@ -282,26 +251,16 @@ stable sort
     DP적용 조건⇒ dp로 풀수있는 문제인가?
 
     - 문제를 작은 문제로 나눌 수 있어야한다 .
-    - 하위문제들의  결과값을 통해서 상위 문제의 결과값을 구할 수 있어야 한다(최적 부분 구조=Optimal substructure)
+    - 하위문제들의 결과값을 통해서 상위 문제의 결과값을 구할 수 있어야 한다(최적 부분 구조=Optimal substructure)
     - 하위 문제들이 중복되어야 한다(중복되는 부분 문제=Overlapping Subproblems)
 
 ## BigO
-
 - BigO의 개념
 - BigO의 복잡성 차트 보기
     - [![img](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/BigO-complexity-chart.png)](https://github.com/WeareSoft/tech-interview/blob/master/contents/images/BigO-complexity-chart.png)
-    - -> http://bigocheatsheet.com/
-
-
-
-
-
-
-
-- 
+    - -> <http://bigocheatsheet.com/>
 
 ## DFS와 BFS의 차이
-
 ![bfs-vs-dfs.gif](https://raw.githubusercontent.com/Cloudblack/Forpicture/image/img/bfs-vs-dfs.gif)
 
 - 깊이 우선 탐색(DFS, Depth-First Search)
@@ -454,12 +413,9 @@ void search(Node root) {
 }
 ```
 
-
-
-- - 
+- -
 
 ## Greedy 알고리즘
-
 - 탐욕법
 - 문제 해결 과정에서 순간순간마다 최적이라고 판단한 방식으로 진행하여 답에 도달
 - 문제의 성질이 동일하게 보존되고, 같은 전략을 반복적으로 사용 가능할 때 적용
@@ -490,7 +446,6 @@ void search(Node root) {
 > - [동적 계획법(Dynamic Programming)과 탐욕법(Greedy Algorithm)](https://velog.io/@cyranocoding/동적-계획법Dynamic-Programming과-탐욕법Greedy-Algorithm-3yjyoohia5)
 
 ## MST란
-
 - Spanning Tree란
 
     - 그래프 내의 모든 정점을 포함하는 트리, **Spanning Tree = 신장 트리 = 스패닝 트리**
@@ -542,10 +497,9 @@ void search(Node root) {
         - 통신: 전화선의 길이가 최소가 되도록 전화 케이블 망을 구성하는 문제
         - 배관: 파이프를 모두 연결하면서 파이프의 총 길이가 최소가 되도록 연결하는 문제
 
-> - https://gmlwjd9405.github.io/2018/08/28/algorithm-mst.html
+> - <https://gmlwjd9405.github.io/2018/08/28/algorithm-mst.html>
 
 ## Kruskal MST 알고리즘
-
 - Kruskal MST 알고리즘이란
 
     - 탐욕적인 방법(greedy method)
@@ -566,10 +520,9 @@ void search(Node root) {
         - 사이클을 형성하는 간선을 제외한다.
     3. 해당 간선을 현재의 MST(최소 비용 신장 트리)의 집합에 추가한다.
 
-> - https://gmlwjd9405.github.io/2018/08/29/algorithm-kruskal-mst.html
+> - <https://gmlwjd9405.github.io/2018/08/29/algorithm-kruskal-mst.html>
 
 ## Prim MST 알고리즘
-
 - Prim MST 알고리즘이란
 
     - 시작 정점에서부터 출발하여 신장트리 집합을
@@ -592,9 +545,8 @@ void search(Node root) {
         - 즉, 가장 낮은 가중치를 먼저 선택한다.
     3. 위의 과정을 트리가 (N-1)개의 간선을 가질 때까지 반복한다.
 
-> - https://gmlwjd9405.github.io/2018/08/30/algorithm-prim-mst.html
+> - <https://gmlwjd9405.github.io/2018/08/30/algorithm-prim-mst.html>
 
 ## Reference
-
-> - https://github.com/tayllan/awesome-algorithms
-> - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+> - <https://github.com/tayllan/awesome-algorithms>
+> - <https://www.cs.usfca.edu/~galles/visualization/Algorithms.html>
