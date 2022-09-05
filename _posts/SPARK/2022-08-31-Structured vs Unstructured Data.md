@@ -9,7 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 date created: 수요일, 8월 31일 2022
-date modified: 수요일, 8월 31일 2022
+date modified: 월요일, 9월 5일 2022
 ---
 
 # 데이터를 합치고 추출하기

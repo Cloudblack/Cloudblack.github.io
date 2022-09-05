@@ -76,3 +76,15 @@ city테이블에서 ID가 1661인 것에서 모든 컬럼을 쿼리하라
 ``` mysql
 select * from city where id = 1661
 ```
+
+---
+https://www.hackerrank.com/challenges/japanese-cities-attributes/problem?isFullScreen=true
+
+Query all attributes of every Japanese city in the **CITY** table. The **COUNTRYCODE** for Japan is `JPN`.
+
+시티 테이블에서 일본의 모든 특성을 쿼리해라
+``` mysql
+select * from city where countrycode = 'JPN'
+```
+
+---
