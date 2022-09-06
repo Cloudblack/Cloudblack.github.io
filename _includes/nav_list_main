@@ -30,6 +30,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Airflow" %}
+                        <li><a href="/categories/Airflow" class="">Air flow ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Database_fundamentals" %}
                         <li><a href="/categories/Database_fundamentals" class="">Database_fundamentals ({{category[1].size}})</a></li>
                     {% endif %}
